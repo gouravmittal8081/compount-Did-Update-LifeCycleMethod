@@ -1,0 +1,19 @@
+compount-Did-Update-LifeCycleMethod
+
+
+Use of compount-Did-Update
+Make Class compount
+use with state and props
+Previous Props and state(NEW CONCEPT)
+
+jab bhi ham koi state ya props me update krte hai to ye compount-Did-Update wala life cycle mthod call hoga and sabko update karega 
+
+componentDidUpdate me three condition hoti hai 
+that is => prevProps,PrevState,snapShot
+
+PrevState=> jesa ki name se hi clear hai ki ye pehle wala state lega or update karega 
+lets see with exaple in our code
+
+render ke under ham kabhi bhi state update nhi karwate hai
+
+Interview question => componentDidUpdate ko ham run hone se rok sakte hai iske under 'false' put krke
